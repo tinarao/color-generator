@@ -44,11 +44,7 @@ function App() {
             <button onClick={generateColor} className={styles.button}>
               Хочу другой цвет
             </button>
-            <button
-              style={{ marginLeft: "0.5rem" }}
-              onClick={copyToClipboard}
-              className={styles.button}
-            >
+            <button onClick={copyToClipboard} className={styles.button}>
               Скопировать
             </button>
           </div>

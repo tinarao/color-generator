@@ -6,12 +6,18 @@
     padding: 1rem 4rem;
     font-weight: 500;
 
+    width: 20rem;
+
     cursor: pointer;
     background: white;
     border: 1px solid gray;
     border-radius: 0.3rem;
 
     &:active {
+        background: rgb(142, 142, 142);
+    }
+
+    &:hover {
         background: rgb(233, 233, 233);
     }
 }
@@ -26,4 +32,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
